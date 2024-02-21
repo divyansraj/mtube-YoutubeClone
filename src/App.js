@@ -1,11 +1,15 @@
 import './App.css';
-
+import Head from './components/Head';
+import Body from './components/Body';
+import { Provider } from 'react-redux';
+import store from './utils/store';
 function App() {
   return (
-    <div className="App">
-      <h1 className=' bg-orange-500 text-orange-500'>Hello to my youtube app</h1>
-
-    </div>
+    <Provider store={store}>
+      <Head/>
+      <Body />
+    </Provider>
+    
   );
 }
 
