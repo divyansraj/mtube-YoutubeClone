@@ -5,7 +5,7 @@ import { faBars,faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import userimg from "../assets/img/1000_F_332596535_lAdLhf6KzbW6PWXBWeIFTovTii1drkbT-removebg-preview.png";
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../utils/MenuSlice";
-
+import ButtonList from "./ButtonList";
 
 
 const Head = () => {
@@ -16,6 +16,7 @@ const Head = () => {
   }
 
   return (
+    <>
     <div className="flex justify-between items-center p-2 pl-4 pr-4">
       <div className="flex">
         <div className="outline-none rounded-md flex items-center w-10 h-8">
@@ -49,8 +50,10 @@ const Head = () => {
 
       </img>
     </div>
-
+    
     </div>
+    <ButtonList/>
+    </>
   );
 };
 

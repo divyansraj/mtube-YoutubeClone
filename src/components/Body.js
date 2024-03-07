@@ -4,7 +4,7 @@ import VideoContainer from './VideoContainer'
 
 const Body = () => {
   return (
-    <div className='h-[100vh] p-4 flex border-2 border-slate-950'>
+    <div className='h-[100vh] p-4 flex '>
         <SideBar/>
         <VideoContainer/>
     </div>
