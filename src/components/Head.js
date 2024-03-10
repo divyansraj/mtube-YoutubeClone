@@ -52,7 +52,7 @@ const Head = () => {
     </div>
     
     </div>
-    <ButtonList/>
+    
     </>
   );
 };
